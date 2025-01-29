@@ -118,4 +118,63 @@
     footer .social-icons a:hover {
       color: #f4a261;
     }
+  /*Lay out*/
+  /* Default styles for desktops and larger screens */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Responsive images */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Responsive container */
+  .container {
+    width: 80%;
+    margin: auto;
+    max-width: 1200px;
+  }
+  
+  /* Responsive grid layout for projects */
+  .project-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  /* Media Query for Tablets (768px - 1024px) */
+  @media screen and (max-width: 1024px) {
+    .container {
+      width: 90%;
+    }
+    
+    .project-grid {
+      grid-template-columns: repeat(2, 1fr); /* Show two items per row */
+    }
+  }
+  
+  /* Media Query for Mobile Devices (max-width: 767px) */
+  @media screen and (max-width: 767px) {
+    .container {
+      width: 95%;
+    }
+    
+    .project-grid {
+      grid-template-columns: 1fr; /* Show one item per row */
+    }
+    
+    /* Make text align center */
+    header, footer, .about-section, .contact-section {
+      text-align: center;
+    }
+    
+    /* Adjust buttons and links for touch devices */
+    .contact-links a {
+      font-size: 2rem; /* Make icons larger for touch screens */
+    }
+  }
   
