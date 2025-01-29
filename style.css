@@ -5,7 +5,7 @@
       font-family: Arial, sans-serif;
     }
     header {
-      background: #333;
+      background: #2C3E50;
       color: white;
       padding: 1rem;
       display: flex;
@@ -28,9 +28,9 @@
       color: #f4a261;
     }
     .hero-section {
-      background: url('coding.jpg') center/cover no-repeat;
+      background: bisque center/cover no-repeat;
       height: 90vh;
-      color: white;
+      color: black;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -92,7 +92,7 @@
       background: #e76f51;
     }
     footer {
-      background: #333;
+      background: #2C3E50;
       color: white;
       padding: 2rem;
       text-align: center;
