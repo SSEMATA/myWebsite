@@ -28,7 +28,7 @@
       color: #f4a261;
     }
     .hero-section {
-      background: bisque center/cover no-repeat;
+      background: bisque center;
       height: 90vh;
       color: black;
       display: flex;
