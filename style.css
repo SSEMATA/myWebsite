@@ -58,7 +58,7 @@
 
   /* Hero Section */
   .hero-section {
-    background: bisque center;
+    background: ('background.png');
     height: 80vh;
     color: black;
     display: flex;
